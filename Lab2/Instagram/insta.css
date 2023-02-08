@@ -1,0 +1,174 @@
+.body{
+    background-color: rgb(250, 250, 250);
+}
+.phone{
+    width: 380px;
+    height: 580px;
+    position: relative;
+    left: -20px;
+}
+
+.inst_logo{
+    width:185px;
+    margin-top: 30px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.log{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: -20px;
+    width: 350px;
+    height:400px;
+    background-color: #fff;
+    margin-left: 30px;
+    margin-top: 15px;
+    border:1px solid #dddfe2;
+    border-radius: 2px;
+}
+.facebook{
+    width:15px;
+}
+a{
+    text-decoration: none;
+    color:#385185;
+}
+.login{
+    padding: 9px 14px;
+    margin-top: 40px;
+    width: 240px;
+    border: 1px solid #b8b4b4;
+    font-size: 12px;
+    border-radius: 2px;
+    overflow: flex;
+}
+.pass{
+    padding: 9px 14px;
+    margin-top: 6px;
+    width: 240px;
+    font-size: 12px;
+    border: 1px solid #b8b4b4;
+    border-radius: 2px;
+}
+
+.sub{
+    padding: 5px 14px;
+    margin-top: 10px;
+    font-size: 14px;    
+    font-family: 'Segoe UI';
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    width: 270px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: #4db5f9;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+}
+
+.line1{
+    width: 95px;
+    height: 0px;
+    margin-top: 24.5px;
+    margin-right: 20px;
+    border: 1px solid #b8b4b4;
+}
+.or{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI';
+    font-size: 13px;
+    color:#b8b4b4;
+    font-weight: 600;
+}
+.line2{
+    width: 95px;
+    height: 0px;
+    margin-top: 24.5px;
+    margin-left: 20px;
+    border: 1px solid #b8b4b4;
+}
+.facebook{
+    margin-top: 20px;
+}
+.forget{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.square1{
+    width:350px;
+    height: 60px;
+    background-color: #fff;
+    margin-left: 741px;
+    margin-top: -155px;
+    border: 1px solid #dddfe2;
+
+}
+.notacc{
+    display: flex;
+    flex-direction: row;
+    width:350px;
+    height: 60px;
+    margin-left: 780px;
+    margin-top: -40px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.register{
+    color: #0095f6;
+    margin-left: 5px;
+}
+.down{
+    margin-top: 130px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 14px;
+}
+.logo{
+    margin-left: 790px;
+    margin-top: 40px;
+}
+.ggplay{
+    width: 130px;
+}
+.microsoft{
+    width: 107px;
+}
+div.back {
+    color: #a6a8aa;
+    font-family: 'Segeo UI';
+    font-size: 14px;
+    display: flex;
+    margin-left: 170px;
+    margin-top: 50px;
+    justify-content: center;
+ 
+}
+.back a {
+    margin-right: 10px;
+    color: #a6a8aa;
+}
+.back1 {
+    margin-top: 15px;
+    color: rgb(142, 142, 142);
+    font-family: 'Segeo UI';
+    font-size: 14px;
+    display: inline-flex;
+    margin-left: 630px;
+    padding-bottom: 52px;
+}
+.back1 a {
+    margin-right: 20px;
+    color: #a6a8aa;
+}
