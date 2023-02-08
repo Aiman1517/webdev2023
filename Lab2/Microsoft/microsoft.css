@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.head0{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 55px;
+}
+.head01{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    display: block;
+    width: 103px;
+    padding: 28px 30px 16px 34px;
+}
+.linkk:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+.link1{
+    font-size: 13px;
+    padding: 16px 8px 10px;
+}
+.linkk{
+    margin-top: 27px;
+    padding-right: 538px;
+}
+.search{
+    width:22px;
+    margin-top: -2px;
+    padding-left: 5px;
+    padding-right:24px;
+}
+.loginimg{
+    width: 40px;
+}
+.link2{
+    font-size:13px;
+}
+.head02{
+    margin-top:30px;
+}
+.products{
+    padding: 16px 20px 16px 15px;
+}
+.head02{
+    display: flex;
+    flex-direction: row;
+}
+.loginimg{
+    margin-left: 8px;
+    margin-top: -10px;
+}
+.mainphoto{
+    width: 1535px;
+    height: 480px;
+}
+.buttonn{
+    border:none;
+    background-color: #0067b8;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 12px 24px;
+    position: absolute;
+    left:124px;
+    top: 390px;
+    transition: all 0.1s;
+}
+.buttonn:hover{
+    cursor: pointer;
+    background-color: #01589b;
+}
+.last{
+    margin-top: 100px;
+    display:flex;
+    flex-direction: row;
+    padding: 0px 78px;
+}
+.img{
+    width: 330px;
+}
+.square1{
+    padding-right: 20px;
+}
+.square2{
+    padding-right: 20px;
+}
+.square3{
+    padding-right: 20px;
+}
+.bigwords{
+    font-weight: 500;
+    font-size: 30px;
+    padding: 13px 0px;
+}
+.lasrwords{
+    line-height: 6px;
+}
+.lastlink{
+    padding: 18px 0px;
+    color:#0067b8;
+    font-weight: 500;
+}
+.prelast{
+    padding-right: 38px;
+}
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
