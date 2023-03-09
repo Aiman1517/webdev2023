@@ -92,7 +92,7 @@ ul li.checked::before {
 .header:after {
   content: "";
   display: table;
-  clear: both;
+  padding: 15px;
 }
 
 
@@ -143,8 +143,8 @@ input {
 
 </ul>
 
+<!-- for close X button-->
 <script>
-
 var myNodelist = document.getElementsByTagName("LI");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
@@ -154,8 +154,7 @@ for (i = 0; i < myNodelist.length; i++) {
   span.appendChild(txt);
   myNodelist[i].appendChild(span);
 }
-
-
+// without this we can not remove lists, let are in the block scope, var are in the function scope 
 var close = document.getElementsByClassName("close");
 var i;
 for (i = 0; i < close.length; i++) {
@@ -165,7 +164,7 @@ for (i = 0; i < close.length; i++) {
   }
 }
 
-
+//without this function we cannot select or put on lists
 var list = document.querySelector('ul');
 list.addEventListener('click', function(ev) {
   if (ev.target.tagName === 'LI') {
@@ -173,6 +172,7 @@ list.addEventListener('click', function(ev) {
   }
 }, false);
 
+//
 
 function newElement() {
   var li = document.createElement("li");
