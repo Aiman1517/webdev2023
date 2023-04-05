@@ -10,6 +10,7 @@ body{
     display: flex;
     flex-direction: row;
     padding: 0px 55px;
+    margin-bottom: 2px;
 }
 .head01{
     display: flex;
@@ -18,7 +19,8 @@ body{
 .logo{
     display: block;
     width: 103px;
-    padding: 28px 30px 16px 34px;
+    height: 23px;
+    padding: 14px 19px 19px 28px;
 }
 .linkk:hover{
     text-decoration: underline;
@@ -28,11 +30,12 @@ a{
 }
 .link1{
     font-size: 13px;
-    padding: 16px 8px 10px;
+    padding: 16px 13px 11px;
 }
 .linkk{
-    margin-top: 27px;
+    margin-top: 18px;
     padding-right: 538px;
+    flex: none;
 }
 .search{
     width:22px;
